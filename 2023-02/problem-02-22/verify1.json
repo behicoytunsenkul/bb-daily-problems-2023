@@ -2,6 +2,6 @@
     "command": [
         "sh",
         "-c",
-        "[ -d /home ] && exit 0"
+        "[ -e /home/ogrenci/dosya_islemleri/dosya1.txt ] && [ -e /home/ogrenci/dosya_islemleri/dosya2.txt ] && [ -e /home/ogrenci/dosya_islemleri/dosya3.txt ] && cat /home/ogrenci/dosya_islemleri/dosya3.txt | grep -i 'BBDaily Coding 2023 - OK' > /dev/null 2>&1 || exit 1"
     ]
 }
